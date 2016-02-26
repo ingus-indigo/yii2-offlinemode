@@ -1,0 +1,21 @@
+{
+    "name": "omni/yii2-offlinemode",
+    "description": "HTML5 offline web manifest and form local storage widged for Yii2 extension.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","html5","offline-web","form-localstorage"],
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "gantaphon",
+          "email": "gantaphon.m@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "omni\\offline\\": ""
+        }
+    }
+}
