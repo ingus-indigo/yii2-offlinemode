@@ -1,5 +1,6 @@
 {
     "name": "omni/yii2-offlinemode",
+    "versions": "1.0.0",
     "description": "HTML5 offline web manifest and form local storage widged for Yii2 extension.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","html5","offline-web","form-localstorage"],
@@ -11,11 +12,18 @@
         }
     ],
     "require": {
+      "php": ">=5.4.0",
         "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
             "omni\\offline\\": ""
         }
-    }
+    },
+    "repositories":[
+      {
+        "type": "git",
+        "url": "https://github.com/ingus-indigo/yii2-offlinemode.git"
+      }
+    ]
 }
